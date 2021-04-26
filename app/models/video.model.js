@@ -8,7 +8,13 @@ module.exports = (sequelize, Sequelize) => {
       },
       link: {
         type: Sequelize.STRING
-      }
+      },
+      tipo: {
+        type: Sequelize.STRING
+      },
+      miniatura: {
+        type: Sequelize.STRING
+      },
     });
   
     return Video;
