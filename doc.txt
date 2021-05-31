@@ -1,7 +1,3 @@
 Creación del proyecto
 npm init
 npm install express sequelize mysql2 body-parser cors --save
-
-Clonar proyecto
-npm install
-node server.js
