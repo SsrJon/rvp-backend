@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-04-2021 a las 18:40:24
+-- Tiempo de generación: 03-06-2021 a las 16:24:26
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.4
 
@@ -43,8 +43,14 @@ CREATE TABLE `videos` (
 --
 
 INSERT INTO `videos` (`id`, `nombre`, `descripcion`, `link`, `tipo`, `miniatura`, `createdAt`, `updatedAt`) VALUES
-(1, 'Las vacaciones de Paco.', 'Paco paco paco', 'link de paco', '4k', 'link miniatura', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(3, 'El video 2', 'video 2', 'link del video 2', '1440', 'miniatura del video 2', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(1, 'Dron', 'Vista de dron', 'drone.mp4', '4k', 'minDrone.png', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(3, 'Planta', 'Planta', 'planta.mp4', '1440', 'minPlanta.png', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(4, 'Doom Ep1', 'Primer episodio de Doom', 'doom1.mp4', '21:9', 'miniaturasDoom1.png', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(5, 'Doom Ep2', 'Segundo episodio de Doom', 'doom2.mp4', '21:9', 'miniaturasDoom2.png', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(6, 'Doom Ep3', 'Tercer episodio de Doom', 'doom3.mp4', '21:9', 'miniaturasDoom3.png', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(7, '7 Days To Die', 'Rodeado de zombies', '7diasparamorir.mp4', '21:9', 'sevenDays.jpg', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(8, 'Dron ciudad', 'Vistas de un dron en la ciudad ', 'drone2.mp4', '4k', 'minDrone2.png', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(9, 'Aterdecer', 'Atardecer en un lago', 'paisaje.mp4', '4k', 'minPaisaje.png', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 --
 -- Índices para tablas volcadas
@@ -64,7 +70,7 @@ ALTER TABLE `videos`
 -- AUTO_INCREMENT de la tabla `videos`
 --
 ALTER TABLE `videos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
